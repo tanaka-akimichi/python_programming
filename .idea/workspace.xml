@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="tests" name="test_salary_unit" />
+    </enabled-run-configurations>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f725d248-fb4e-4051-8483-007996d03163" name="Default" comment="" />
+    <list default="true" id="f725d248-fb4e-4051-8483-007996d03163" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_salary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,49 +22,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_calculation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_calculation.py">
+      <file leaf-file-name="test_salary.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_salary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1166">
+              <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_ui.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_ui.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="random_number.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../statistics_calculation/random_number.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding>
-                <element signature="e#14#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
-            </state>
-          </provider>
+      <file leaf-file-name="thread-exercise.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thread-exercise.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -66,6 +46,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -102,6 +85,9 @@
         <option value="$PROJECT_DIR$/test_calculation.py" />
         <option value="$PROJECT_DIR$/test_ui.py" />
         <option value="$PROJECT_DIR$/../statistics_calculation/random_number.py" />
+        <option value="$PROJECT_DIR$/salary.py" />
+        <option value="$PROJECT_DIR$/test_salary.py" />
+        <option value="$PROJECT_DIR$/thread-exercise.py" />
       </list>
     </option>
   </component>
@@ -115,17 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="python_programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_programming" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -137,11 +112,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="python_programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_programming" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_salary.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -165,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.go">
+  <component name="RunManager" selected="Python tests.test_salary_unit">
     <configuration name="go" type="PythonConfigurationType" factoryName="Python">
       <module name="python_programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,7 +202,7 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_calculation.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="test_ui" type="tests" factoryName="Unittests">
+    <configuration name="test_sa;aru" type="tests" factoryName="Unittests">
       <module name="python_programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,12 +213,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_ui.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_salary.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="test_salary_unit" type="tests" factoryName="Unittests">
+      <module name="statistics_calculation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\akimi\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_salary.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
       <item itemvalue="Python.go" />
-      <item itemvalue="Python tests.test_ui" />
+      <item itemvalue="Python tests.test_salary_unit" />
+      <item itemvalue="Python tests.test_sa;aru" />
       <item itemvalue="Python tests.pytest" />
       <item itemvalue="Python.test-flask" />
     </list>
@@ -256,46 +257,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_ui - 2018.07.08 at 20h 22m 54s.xml">
-      <configuration name="test_ui" configurationId="tests" />
+    <history-entry file="test_sa_aru - 2018.07.15 at 22h 42m 48s.xml">
+      <configuration name="test_sa;aru" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_ui - 2018.07.08 at 20h 23m 57s.xml">
-      <configuration name="test_ui" configurationId="tests" />
+    <history-entry file="test_sa_aru - 2018.07.15 at 22h 44m 42s.xml">
+      <configuration name="test_sa;aru" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_ui - 2018.07.08 at 20h 24m 09s.xml">
-      <configuration name="test_ui" configurationId="tests" />
+    <history-entry file="test_sa_aru - 2018.07.15 at 22h 50m 35s.xml">
+      <configuration name="test_sa;aru" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_ui - 2018.07.08 at 20h 24m 37s.xml">
-      <configuration name="test_ui" configurationId="tests" />
+    <history-entry file="test_sa_aru - 2018.07.15 at 22h 59m 40s.xml">
+      <configuration name="test_sa;aru" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_ui - 2018.07.08 at 20h 29m 13s.xml">
-      <configuration name="test_ui" configurationId="tests" />
+    <history-entry file="test_sa_aru - 2018.07.15 at 23h 00m 50s.xml">
+      <configuration name="test_sa;aru" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_ui - 2018.07.08 at 20h 30m 00s.xml">
-      <configuration name="test_ui" configurationId="tests" />
+    <history-entry file="test_salary_unit - 2018.07.15 at 23h 04m 21s.xml">
+      <configuration name="test_salary_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_ui - 2018.07.08 at 20h 35m 40s.xml">
-      <configuration name="test_ui" configurationId="tests" />
+    <history-entry file="test_salary_unit - 2018.07.15 at 23h 05m 07s.xml">
+      <configuration name="test_salary_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_ui - 2018.07.08 at 20h 36m 50s.xml">
-      <configuration name="test_ui" configurationId="tests" />
+    <history-entry file="test_salary_unit - 2018.07.15 at 23h 12m 42s.xml">
+      <configuration name="test_salary_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_ui - 2018.07.08 at 20h 42m 20s.xml">
-      <configuration name="test_ui" configurationId="tests" />
+    <history-entry file="test_salary_unit - 2018.07.15 at 23h 14m 18s.xml">
+      <configuration name="test_salary_unit" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_ui - 2018.07.08 at 20h 43m 16s.xml">
-      <configuration name="test_ui" configurationId="tests" />
+    <history-entry file="test_salary_unit - 2018.07.15 at 23h 15m 00s.xml">
+      <configuration name="test_salary_unit" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1719" height="972" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49642006" visible="true" weight="0.14612147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49642006" visible="true" weight="0.1497294" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32816228" />
-      <window_info anchor="right" id="Run" order="3" sideWeight="0.48210025" visible="true" weight="0.46843055" />
+      <window_info anchor="right" id="Run" order="3" sideWeight="0.48210025" weight="0.41190618" />
       <window_info id="Structure" order="1" sideWeight="0.50358" side_tool="true" weight="0.16476248" />
       <window_info anchor="right" x="482" y="49" width="743" height="861" id="Terminal" order="4" sideWeight="0.51789975" side_tool="true" weight="0.42333132" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -367,31 +369,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="42" />
+      <option name="time" value="44" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_package/tools/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_package/talk/human.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -684,17 +665,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_doctest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_calculation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -705,35 +703,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_calculation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../statistics_calculation/random_number.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#14#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_salary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-exercise.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
