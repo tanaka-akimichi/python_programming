@@ -7,11 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f725d248-fb4e-4051-8483-007996d03163" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_salary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-exercise2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/thread-exercise.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,9 +29,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thread-exercise.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="thread-exercise.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread-exercise.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thread-exercise2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thread-exercise2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -88,10 +102,11 @@
         <option value="$PROJECT_DIR$/salary.py" />
         <option value="$PROJECT_DIR$/test_salary.py" />
         <option value="$PROJECT_DIR$/thread-exercise.py" />
+        <option value="$PROJECT_DIR$/thread-exercise2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1908" />
     <option name="width" value="1944" />
     <option name="height" value="2178" />
@@ -127,16 +142,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_salary.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/thread-exercise.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\akimi\PycharmProjects\python_programming\lesson_package\tools" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\akimi\PycharmProjects\python_programming" />
       <recent name="C:\Users\akimi\PycharmProjects\python_programming\lesson_package\talk" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\akimi\PycharmProjects\python_programming\lesson_package\tools" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.test_salary_unit">
+  <component name="RunManager" selected="Python.go">
     <configuration name="go" type="PythonConfigurationType" factoryName="Python">
       <module name="python_programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,11 +175,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\akimi\Anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../statistics_calculation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../statistics_calculation/random_number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thread-exercise2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,9 +272,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_sa_aru - 2018.07.15 at 22h 42m 48s.xml">
-      <configuration name="test_sa;aru" configurationId="tests" />
-    </history-entry>
     <history-entry file="test_sa_aru - 2018.07.15 at 22h 44m 42s.xml">
       <configuration name="test_sa;aru" configurationId="tests" />
     </history-entry>
@@ -287,12 +299,15 @@
     <history-entry file="test_salary_unit - 2018.07.15 at 23h 15m 00s.xml">
       <configuration name="test_salary_unit" configurationId="tests" />
     </history-entry>
+    <history-entry file="test_salary_unit - 2018.07.15 at 23h 47m 26s.xml">
+      <configuration name="test_salary_unit" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1719" height="972" extended-state="7" />
+    <frame x="-6" y="-6" width="1719" height="972" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49642006" visible="true" weight="0.1497294" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49642006" visible="true" weight="0.1497294" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -312,20 +327,20 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info active="true" anchor="right" id="Run" order="3" sideWeight="0.48210025" visible="true" weight="0.41190618" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49642006" visible="true" weight="0.16476248" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49642006" visible="true" weight="0.1497294" />
       <window_info id="Structure" order="1" sideWeight="0.50358" side_tool="true" weight="0.16476248" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="right" id="Run" order="3" sideWeight="0.48448688" visible="true" weight="0.42333132" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293556" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32816228" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.30548927" />
-      <window_info anchor="right" x="482" y="49" width="743" height="861" id="Terminal" order="4" sideWeight="0.5155131" side_tool="true" visible="true" weight="0.42333132" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.49284008" />
+      <window_info anchor="right" x="482" y="49" width="743" height="861" id="Terminal" order="4" sideWeight="0.51789975" side_tool="true" weight="0.42333132" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -369,17 +384,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="44" />
+      <option name="time" value="53" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson_package/talk/human.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_package/talk/animal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -725,7 +733,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thread-exercise.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-exercise2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
