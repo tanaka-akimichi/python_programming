@@ -4,25 +4,34 @@ import time
 
 logging.basicConfig(level=logging.DEBUG, format='%(threadName)s: %(message)s')
 
-def worker1():
+def worker1(d, lock):
     # print(threading.currentThread().getName(), 'start')
     logging.debug('start')
+    lock.acquire()
+    i = d['x']
     time.sleep(5)
+    d['x'] = i + 1
+    logging.debug(d)
+    lock.release()
     logging.debug('end')
-    # nprint(threading.currentThread().getName(), 'end')
+    # print(threading.currentThread().getName(), 'end')
 
-def worker2(x, y=1):
+def worker2(d, lock):
     # print(threading.currentThread().getName(), 'start')
     logging.debug('start')
-    logging.debug(x)
-    logging.debug(y)
-    time.sleep(5)
+    lock.acquire()
+    i = d['x']
+    d['x'] = i + 1
+    logging.debug(d)
+    lock.release()
     logging.debug('end')
     # print(threading.currentThread().getName(), 'end')
 
 if __name__ == '__main__':
-    t1 = threading.Thread(name='rename worker1', target=worker1)
-    t2 = threading.Thread(target=worker2, args=(100,), kwargs={'y': 200})
+    d = {'x': 0}
+    lock = threading.Lock()
+    t1 = threading.Thread(target=worker1, args=(d, lock))
+    t2 = threading.Thread(target=worker2, args=(d, lock))
 
     t1.start()
     t2.start()
